@@ -1,0 +1,29 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "landing";
+@import "settings";
+
+:root {
+  --primary: #35ce8d;
+  --secondary: #fff;
+  --font-color: black;
+  --landing-header-color: white;
+  --university-button-color: white;
+
+  &[theme="dark"] {
+    --primary: #24202f;
+    --secondary: #000;
+    --font-color: #fff;
+    --university-button-color: #35ce8d;
+  }
+}
+
+body {
+  font-family: tweb-regular;
+  background-color: var(--primary);
+  color: var(--font-color);
+  letter-spacing: 0.1em;
+}
+
+
