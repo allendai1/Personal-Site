@@ -92,7 +92,7 @@ export default function Navigation() {
         <span>Contact me</span>
       </TransitionLink>
 
-      <Link className="nav-item" to="/blog">
+      <a className="nav-item" href="https://allendai1.medium.com/">
         <svg viewBox="0 -2 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M4 24H14V26H4V24Z" />
           <path d="M4 18H14V20H4V18Z" />
@@ -100,7 +100,7 @@ export default function Navigation() {
           <path d="M26 28H20C19.4696 28 18.9609 27.7893 18.5858 27.4142C18.2107 27.0391 18 26.5304 18 26V20C18 19.4696 18.2107 18.9609 18.5858 18.5858C18.9609 18.2107 19.4696 18 20 18H26C26.5304 18 27.0391 18.2107 27.4142 18.5858C27.7893 18.9609 28 19.4696 28 20V26C28 26.5304 27.7893 27.0391 27.4142 27.4142C27.0391 27.7893 26.5304 28 26 28ZM20 20V26H26V20H20Z" />
         </svg>
         <span>Blog</span>
-      </Link>
+      </a>
      
       
       <DarkMode />
