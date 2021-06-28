@@ -1,7 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
 import DarkMode from "./DarkMode"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import TransitionLink from "gatsby-plugin-transition-link"
 import { gsap } from "gsap";
 

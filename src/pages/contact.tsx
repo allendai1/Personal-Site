@@ -49,7 +49,7 @@ export default function contact() {
                         <button type="submit" className="submit-button">Submit</button>
                     </form>
                 </div>
-                <div className="contact-card">You can also contact me on my social medias</div>
+                {/* <div className="contact-card">You can also contact me on my social medias</div> */}
 
 
             </div>
