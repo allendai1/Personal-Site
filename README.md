@@ -2,10 +2,10 @@
 <p align="center">
  
 
-  <h3 align="center">Plentifile</h3>
+  <h3 align="center">allendai.me</h3>
 
   <p align="center">
-    A file sharing wep app
+    My personal website
     <br />
 
   </p>
@@ -22,11 +22,11 @@
 ## About The Project
 
 
-Plentifile is a website where users can upload any files they want and share them by sharing the generated link or QR code.
+allendai.me is my personal website, where you can find my resume, my blog, and more about me.
 
 ### Built With
 
+* [Gatsby]()
 * [React]()
-* [Firebase]()
-* [Bootstrap]()
+* [Tailwind]()
 * [Sass]()
