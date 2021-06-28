@@ -1,10 +1,13 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  allendai.me
+  
 </p>
 <h1 align="center">
-  Personal Site
+  allendai.me
 </h1>
+<h2>
+  Description
+ <h2/>
 
 
 <!-- AUTO-GENERATED-CONTENT:END -->
