@@ -5,7 +5,6 @@ import Seo from "../components/seo.js"
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import emailjs from "emailjs-com";
 import {Transition, CSSTransition} from "react-transition-group"
-import TransitionLink from "gatsby-plugin-transition-link"
 
 export default function contact() {
 
@@ -14,7 +13,7 @@ export default function contact() {
     const subject = useRef(null);
     const message = useRef(null);
     const [inProp, setInProp] = useState(false);
-
+    const [submitted,setSubmitted] = useState(false);
     useEffect(()=>{
         setInProp(true);
     },[])
@@ -26,11 +25,14 @@ export default function contact() {
             emailjs.sendForm(process.env.GATSBY_EMAIL_SERVICE_ID, process.env.GATSBY_EMAIL_TEMPLATE_ID, e.target, process.env.GATSBY_EMAIL_USER_ID)
             .then((result) => {
                 console.log(result.text);
+                setSubmitted(true);
+
             }, (error) => {
                 console.log(error.text);
             });
 
         }
+        
     
         
     }
@@ -46,7 +48,7 @@ export default function contact() {
                         <input ref={name} name="name" placeholder="Name" type="text"></input>
                         <input ref={subject} name="subject" placeholder="Subject" type="text"></input>
                         <textarea ref={message} placeholder="Enter a message" name="message" rows="10" cols="30"></textarea>
-                        <button type="submit" className="submit-button">Submit</button>
+                        <button id="submit-button" type="submit" className="submit-button" disabled={submitted ? "t" : ""} >{submitted ? "Submitted" : "Submit"}</button>
                     </form>
                 </div>
                 {/* <div className="contact-card">You can also contact me on my social medias</div> */}

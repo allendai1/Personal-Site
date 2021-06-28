@@ -43,6 +43,10 @@
     color: white;
     border-radius: 5px;
     padding: 0.5rem 0;
+    &:disabled{
+        opacity: 50%;
+        cursor: text;
+    }
 }
 
 .contact-card{
@@ -59,6 +63,9 @@
         border: 1px solid gray;
         border-radius: 4px;
         margin-bottom: 1rem;
+    }
+    form{
+        color: var(--font-color);
     }
     textarea{
         margin-bottom: 1rem;
