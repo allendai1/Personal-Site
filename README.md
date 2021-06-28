@@ -7,10 +7,11 @@
 </h1>
 <h2>
   Description
-<h2/>
- <p>
+   <p>
    allendai.me is my personal website. On it you can find my personal projects, socials, resume, and my Medium blog.
-  </p>
+ </p>
+<h2/>
+
 
 
 <!-- AUTO-GENERATED-CONTENT:END -->
