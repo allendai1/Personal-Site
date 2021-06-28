@@ -2,7 +2,7 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import "landing";
-@import "settings";
+@import "settings","profile","projectcard","resumecard","contact";
 
 :root {
   --primary: #35ce8d;
@@ -10,20 +10,42 @@
   --font-color: black;
   --landing-header-color: white;
   --university-button-color: white;
-
+  --profile-column-color: white;
+  --project-card-color: white;
+  --border-color: #ddd7d7;
+  --profile-content-container: #f1f1f1;
+  --navbar-border: #eff3f4;
+  --body-color: #f1f1f18f;
+  --hover-color: white;
+  --box-shadow-color: #656464;
+  
   &[theme="dark"] {
     --primary: #24202f;
     --secondary: #000;
-    --font-color: #fff;
+    --font-color: #f1f1f1;
     --university-button-color: #35ce8d;
+    --profile-column-color: #15202b; // #121212
+    --project-card-color: #1c1b20;
+    --border-color: #38444d;
+    --profile-content-container:#38444d; 
+    --navbar-border: #38444d;
+    --body-color: #24202f;
+    --hover-color: #1982fc;
+    --box-shadow-color: #000000;
+
+    // images with mostly black outline -> white
+    img.dark-mode-invert{
+      filter: invert(100%);
+
+    }
   }
 }
 
 body {
   font-family: tweb-regular;
-  background-color: var(--primary);
+  background-color: var(--body-color);
   color: var(--font-color);
-  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
 }
 
 

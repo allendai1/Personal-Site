@@ -1,0 +1,33 @@
+[
+    {
+        
+        "project_title":"Plentifile",
+        "project_short_desc":"File Sharing Web App",
+        "project_long_desc":"A website that allows users to select files from their computer, and upload them to the site. Files can be shared through a link and downloaded by anyone. Users can also sign in to save and view their uploaded files and add additional data such as a name, description, and password to their uploaded files.",
+        "tech_used": ["react","js","firebase","bootstrap"]
+    },
+    {
+        "project_title":"Big 2",
+        "project_short_desc":"File Sharing Web App",
+        "project_long_desc":"A website that allows users to select files from their computer, and upload them to the site. Files can be shared through a link and downloaded by anyone. Users can also sign in to save and view their uploaded files and add additional data such as a name, description, and password to their uploaded files.",
+        "tech_used": ["react","js","firebase","bootstrap"]
+    },
+    {
+        "project_title":"Big 2",
+        "project_short_desc":"File Sharing Web App",
+        "project_long_desc":"A website that allows users to select files from their computer, and upload them to the site. Files can be shared through a link and downloaded by anyone. Users can also sign in to save and view their uploaded files and add additional data such as a name, description, and password to their uploaded files.",
+        "tech_used": ["react","js","firebase","bootstrap"]
+    },
+    {
+        "project_title":"Big 2",
+        "project_short_desc":"File Sharing Web App",
+        "project_long_desc":"A website that allows users to select files from their computer, and upload them to the site. Files can be shared through a link and downloaded by anyone. Users can also sign in to save and view their uploaded files and add additional data such as a name, description, and password to their uploaded files.",
+        "tech_used": ["react","js","firebase","bootstrap"]
+    },
+    {
+        "project_title":"Big 2",
+        "project_short_desc":"File Sharing Web App",
+        "project_long_desc":"A website that allows users to select files from their computer, and upload them to the site. Files can be shared through a link and downloaded by anyone. Users can also sign in to save and view their uploaded files and add additional data such as a name, description, and password to their uploaded files.",
+        "tech_used": ["react","js","firebase","bootstrap"]
+    }
+]

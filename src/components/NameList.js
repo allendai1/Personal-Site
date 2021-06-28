@@ -4,26 +4,48 @@ import { useStaticQuery, graphql } from "gatsby"
 
 
 export default function NameList() {
-    const data = useStaticQuery(graphql`
-    query testQuery {
-        allAllenJson{
-            edges{
-                node{
-                    name
-                }
-            }
-        }
-    }
-  `)
-  console.log(data.allAllenJson.edges)
+  //   const data = useStaticQuery(graphql`
+  //   query ResumeQery {
+  //     allResumeJson {
+  //       edges {
+  //         node {
+  //           hometown
+  //           full_name
+  //           dob
+  //           programming_languages
+  //           web_technologies
+  //           work_experience {
+  //             fields {
+  //               job
+  //               date
+  //               job_role
+  //               description
+  //             }
+  //           }
+  //           occupation
+  //           education {
+  //             gpa
+  //             start_date
+  //             end_date
+  //             degree
+  //             honors
+  //             university
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+    
+
+
+  // `)
+  // const node = data.allResumeJson.edges[0].node;
+  // console.log(node.education)
 
     return (
         <div className="flex flex-col-reverse">
             <button className="btn-blue">Button</button>
-            {data.allAllenJson.edges.map(x=>{
-                console.log(x.node.name)
-                return <span>{x.node.name}</span>
-            })}
+            
         </div>
     )
 }

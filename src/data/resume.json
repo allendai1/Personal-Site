@@ -1,0 +1,55 @@
+[
+    {
+        "full_name":"Allen Dai",
+        "occupation":"Sophomore at UMass Boston",
+        "dob": "November 9, 2001",
+        "hometown": "Milton, Massachusetts",
+        "education": {
+            "university":[
+                {
+                    "name":"University of Massachusetts Boston",
+                    "start_date": "2020",
+                    "grad_date": "2024",
+                    "gpa": "3.97",
+                    "degree":"B.A in Computer Science",
+                    "honors": ["Deans List", "Chancellor's Scholarship"]
+                },
+                {
+                    "name":"Milton High School",
+                    "start_date": "2016",
+                    "grad_date": "2020",
+                    "gpa": "3.7"
+                    
+                }
+            ]
+            
+        },
+        "work_experience": {
+            "fields": [
+                {
+                    "job": "Auntie Anne's",
+                    "date": "June 2019 - August 2019",
+                    "job_role": "Cashier",
+                    "description": "Worked as a casher up front"
+                },
+                {
+                    "job": "Milton Art Center",
+                    "date": "June 2018 - August 2018",
+                    "job_role": "Teacher Assistant",
+                    "description": "Worked with children helping them with their artwork and origami"
+                },
+                {
+                    "job": "Kwong Kow Chinese School",
+                    "date": "June 2017 - July 2017",
+                    "job_role": "Teacher Assistant",
+                    "description": "Worked with first graders and taught them basic math and english as well as assisting in field trips"
+                }
+            ]
+            
+            
+        },
+        "programming_languages": ["JavaScript","HTML/CSS","Python","TypeScript","GraphQL","Java"],
+        "web_technologies": ["React","Gatsby","Git","Node.js","Express","Firebase","Bootstrap"]
+        
+    }
+]

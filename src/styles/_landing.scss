@@ -5,48 +5,193 @@
   flex-direction: column;
   align-items: center;
   gap: 0.75rem;
-  margin-top: 3rem;
+  padding-top: 3rem;
+
+}
+p.landing-header {
+  color: var(--landing-header-color);
+  font-size: clamp(2.25rem, calc(2.25rem + ((1vw - 0.1875rem) * 2.1235)), 4.4rem);
+
+  
+
+
+
+  .landing-allen {
+    color: var(--landing-header-color);
+    text-shadow: 6px 2px 3px rgba(0, 0, 0, 0.25);
+    font-size: 2.25rem;
+    font-weight: 600;
+    white-space: nowrap;
+    display: block;
+  }
+
+  .landing-computerscience {
+    color: $yellow;
+    font-weight: 600;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2.25rem;
+    letter-spacing: 0;
+    font-family: tweb-semi;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+  }
+}
+.landing-header-container {
+  display: flex;
+  flex-direction: column;
+  // text-align: center;
+  align-items: center;
 }
 
-.landing-header-1 {
-  color: var(--landing-header-color);
-  font-size: 2.25rem;
-  letter-spacing: 0.1em;
-}
-.landing-header-2 {
-  color: var(--landing-header-color);
-  text-shadow: 6px 2px 3px rgba(0, 0, 0, 0.25);
-  font-size: 2.25rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-}
-
-.landing-header-4 {
-  color: $yellow;
-  font-weight: 600;
-  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 2.25rem;
-  letter-spacing: 0.1em;
-  font-family: tweb-semi;
-}
 .university-button {
   outline: none;
   font-family: tweb-semi;
   background-color: var(--university-button-color);
-  padding: 0.1rem 1rem;
-  border-radius: 3px;
-  box-shadow: 0px 0px 39px 9px rgba(0, 0, 0, 0.25);
-  font-size: 1.5rem;
-  letter-spacing: 0.1em;
-  margin-bottom: 1rem;
+  // padding: 0.1rem 1rem;
+  border-radius: 6px;
+  box-shadow: 8px 8px 11px 0px rgba(0, 0, 0, 0.25);
+  font-size: clamp(1.8rem, calc(1.8rem + ((1vw - 0.1875rem) * 1.9753)), 3.8rem);
+  // letter-spacing: 0.1em;
+  margin-top: 1rem;
+
+  padding: 0.2rem 1rem;
+  width: fit-content;
 }
 .view_profile-button {
   background-color: #1982fc;
   border-radius: 50px;
   align-items: center;
   display: flex;
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: white;
-  padding: 0.75rem 1.5rem;
+  padding: 0.1rem 2rem;
   font-family: tweb-semi;
+  width: fit-content;
+  margin-top: 2rem;
+}
+
+.resume-document {
+  min-width: 260px;
+  min-height: 270px;
+  border-radius: 5px;
+  width: 30vw;
+  height: 37vw;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  transform: rotate3d(1, -1, -1, 318deg);
+  box-shadow: 12px 12px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.6s;
+
+  span {
+    color: var(--font-color);
+    font-family: tweb-semi;
+    font-size: 2rem;
+  }
+
+  .resume-document-line {
+    background-color: var(--font-color);
+    width: 85%;
+    height: 0.75rem;
+    border-radius: 10px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .landing-page {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    padding-left: 100px;
+    align-items: flex-start;
+    min-height: 100vh;
+    .resume-document {
+      margin: 1rem 0 2rem 6rem;
+      min-width: 260px;
+      min-height: 390px;
+      border-radius: 5px;
+      width: 30vw;
+      height: 37vw;
+      background-color: var(--secondary);
+      display: flex;
+      flex-direction: column;
+      gap: 1.3rem;
+      align-items: center;
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+      transform: rotate3d(1, -1, -1, 318deg);
+      box-shadow: 12px 12px 5px 0px rgba(0, 0, 0, 0.25);
+      transition: 0.6s;
+
+      span {
+        color: var(--font-color);
+        font-family: tweb-semi;
+        font-size: 2rem;
+      }
+
+      .resume-document-line {
+        background-color: var(--font-color);
+        width: 85%;
+        height: 0.75rem;
+        border-radius: 10px;
+      }
+      &:hover {
+        cursor: pointer;
+        transform: rotate3d(1, -1, -1, 360deg);
+      }
+    }
+    .landing-header-container {
+      display: grid;
+      grid-template-rows: 0fr 0fr 0fr;
+      a img {
+        grid-row: 1 / 4;
+        grid-column: 2 /3;
+      }
+    }
+
+    img {
+      grid-row: 1 / 3;
+    }
+  }
+  .landing-header {
+    span.landing-allen {
+      display: inline;
+      font-size: 5.25rem;
+    }
+    span.landing-computerscience {
+      display: inline;
+      font-size: 5.25rem;
+      letter-spacing: 0;
+    }
+    span.landing-study {
+      display: block;
+    }
+    .landing-sentence2 {
+      line-height: 8rem;
+    }
+  }
+
+  .landing-sentence1 {
+    white-space: nowrap;
+  }
+
+  .landing-sentence2 {
+    white-space: nowrap;
+    display: block;
+  }
+  .view_profile-button {
+    font-size: 2.3rem;
+    position: absolute;
+    bottom: 6rem;
+    &:hover{
+      background-color: red;
+    }
+  }
+  
+  p.landing-header {
+    text-align: left;
+  }
 }

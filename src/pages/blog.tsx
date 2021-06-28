@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Profile() {
+export default function blog() {
     return (
         <div>
-            Profile page
+            blog
         </div>
     )
 }
