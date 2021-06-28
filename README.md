@@ -1,20 +1,32 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<br />
+<p align="center">
+ 
 
-<h1 align="center">
-  allendai.me
-</h1>
-<h2>
-  Description
-   <p>
-   allendai.me is my personal website. On it you can find my personal projects, socials, resume, and my Medium blog.
- </p>
-<h2/>
-Built With
+  <h3 align="center">Plentifile</h3>
+
+  <p align="center">
+    A file sharing wep app
+    <br />
+
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
+Plentifile is a website where users can upload any files they want and share them by sharing the generated link or QR code.
+
+### Built With
 
 * [React]()
 * [Firebase]()
 * [Bootstrap]()
 * [Sass]()
-
-
-<!-- AUTO-GENERATED-CONTENT:END -->
