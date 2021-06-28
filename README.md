@@ -30,3 +30,10 @@ allendai.me is my personal website, where you can find my resume, my blog, and m
 * [React]()
 * [Tailwind]()
 * [Sass]()
+
+
+## Contact
+
+Allen Dai - allendai1@hotmail.com
+
+Project Link: [https://allendai.me](https://allendai.me/)
