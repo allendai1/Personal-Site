@@ -36,7 +36,7 @@ export default function contact() {
     }
     return (
         <>
-        <Seo title="contact"/>
+        <Seo title="Contact"/>
         <div className="profile-page">
             <div id="contact-column" className="contact-column">
                 <div className="contact-card">

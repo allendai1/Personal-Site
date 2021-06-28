@@ -8,7 +8,7 @@ import Seo from "../components/seo.js"
 export default function IndexPage() {
   return (
     <>
-    <Seo title="Allen's profile"/>
+    <Seo title="Profile"/>
       <div className="profile-page">
         <div id="profile-column" className="profile-column">
           <ProfileHeaderContainer />

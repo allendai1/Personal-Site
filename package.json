@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "allendai.me",
   "private": true,
-  "description": "Allen's personal website",
+  "description": "allendai.me",
   "version": "0.1.0",
   "author": "Allen Dai",
   "dependencies": {
