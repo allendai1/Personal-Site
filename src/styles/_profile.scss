@@ -240,7 +240,7 @@
     display: flex;
     flex-direction: column;
     position:relative;
-    border-left: 1px solid white;
+    // border-left: 1px solid white;
   }
 
   .profile-column {
@@ -264,7 +264,7 @@
     }
   }
   .profile-content-container {
-    border-radius: 0 0 15px 15px;
+    // border-radius: 0 0 15px 15px;
   }
   .tags-container {
     grid-column: 2/3;

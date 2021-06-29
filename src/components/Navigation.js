@@ -11,18 +11,16 @@ export default function Navigation() {
        className="nav-item" 
        to="/"
        entry={{
-         length:0.5,
+         length:0.75,
         trigger: ({ exit, node }) =>{
           gsap.fromTo("#profile-column", {y:-1000},{ y:0})
-          console.log("entry")
         }
 
       }}
       exit={{
        
-        length:0.5,
+        length:0.75,
         trigger: ({ exit, node }) =>{
-          console.log("exit")
           gsap.fromTo("#contact-column",{ y:0},{ y:1000})
 
         }
@@ -53,7 +51,7 @@ export default function Navigation() {
         to="/contact"
         
         entry={{
-          length:0.5,
+          length:0.75,
           
           trigger: ({ exit, node }) =>{
             gsap.fromTo("#contact-column", {y:1000},{ y:0})
@@ -61,19 +59,13 @@ export default function Navigation() {
 
         }}
         exit={{
-          length:0.5,
+          length:0.75,
           trigger: () =>{
             gsap.fromTo("#profile-column", {y:0},{ y:-1000})
           }
 
         }}
-        // exit={{
-        //   length: 1,
-        //   trigger: ({ exit, node }) =>{
-        //     gsap.fromTo(".contact-column", {y:0},{duration:0.6, y:1000})
-        //   }
-
-        // }}
+       
        >
         <svg
           

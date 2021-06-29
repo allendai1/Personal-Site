@@ -1,5 +1,4 @@
 import React from "react"
-import DarkMode from "../components/DarkMode"
 import ProfileHeaderContainer from "../components/ProfileHeaderContainer"
 import ProfileContentContainer from "../components/ProfileContentContainer"
 import Navigation from "../components/Navigation"

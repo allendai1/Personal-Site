@@ -72,6 +72,15 @@
         box-shadow: inset 0px 0px 4px 0px #c9b0b0;
     }
 }
+.socials-icon-container{
+    a svg{
+        width: 35px;
+        margin-left: 1rem;
+        path{
+            fill: var(--font-color);
+        }
+    }
+}
 @media screen and (min-width: 650px) {
     .contact-page{
         flex-direction: row;
