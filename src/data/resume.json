@@ -27,6 +27,18 @@
         "work_experience": {
             "fields": [
                 {
+                    "job": "UMass Boston CSM",
+                    "date": "September 2021 - Present",
+                    "job_role": "Ambassador",
+                    "description": "Represented the College of Science and Mathematics in all things school related"
+                },
+                {
+                    "job": "UMass Boston Bookstore",
+                    "date": "August 2021 - September 2021",
+                    "job_role": "Sales Associate",
+                    "description": "Assisted customers in store, stocked shelves, packed and shipped packages"
+                },
+                {
                     "job": "Auntie Anne's",
                     "date": "June 2019 - August 2019",
                     "job_role": "Cashier",
