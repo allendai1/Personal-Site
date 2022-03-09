@@ -10,7 +10,7 @@
                     "name":"University of Massachusetts Boston",
                     "start_date": "2020",
                     "grad_date": "2024",
-                    "gpa": "3.97",
+                    "gpa": "3.90",
                     "degree":"B.A in Computer Science",
                     "honors": ["Deans List", "Chancellor's Scholarship"]
                 },
@@ -26,6 +26,12 @@
         },
         "work_experience": {
             "fields": [
+                {
+                    "job": "Staples Inc.",
+                    "date": "June 2022 - August 2022",
+                    "job_role": "Software Engineering Intern",
+                    "description": "Incoming SWE intern @ Staples"
+                },
                 {
                     "job": "UMass Boston",
                     "date": "February 2022 - Present",
