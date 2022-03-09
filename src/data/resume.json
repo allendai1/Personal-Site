@@ -27,8 +27,14 @@
         "work_experience": {
             "fields": [
                 {
+                    "job": "UMass Boston",
+                    "date": "February 2022 - Present",
+                    "job_role": "Subject Tutor",
+                    "description": "Tutored and mentored students in 100s and 200s levels CS courses"
+                },
+                {
                     "job": "UMass Boston CSM",
-                    "date": "September 2021 - Present",
+                    "date": "September 2021 - February 2022",
                     "job_role": "Ambassador",
                     "description": "Represented the College of Science and Mathematics in all things school related"
                 },
