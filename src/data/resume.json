@@ -27,6 +27,12 @@
         "work_experience": {
             "fields": [
                 {
+                    "job": "Capital One",
+                    "date": "June 2023 - August 2023",
+                    "job_role": "Software Engineering Intern",
+                    "description": "SWE intern @ Capital One"
+                },
+                {
                     "job": "Staples Inc.",
                     "date": "June 2022 - August 2022",
                     "job_role": "Software Engineering Intern",
